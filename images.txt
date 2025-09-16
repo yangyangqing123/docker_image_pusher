@@ -1,1 +1,1 @@
---platform=linux/arm64 wurstmeister/kafka:2.4.1
+--platform=linux/arm64 apache/zookeeper:3.5.7
