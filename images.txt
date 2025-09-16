@@ -1,1 +1,1 @@
---platform=linux/arm64 influxdb:2.4.0
+--platform=linux/arm64 clickhouse/clickhouse-server:22.1.3.7
