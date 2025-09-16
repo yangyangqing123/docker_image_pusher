@@ -1,1 +1,1 @@
---platform=linux/arm64 k8s.gcr.io/prometheus-adapter/prometheus-adapter:v0.9.0
+--platform=linux/arm64 influxdb:2.4.0
