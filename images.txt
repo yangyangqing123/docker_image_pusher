@@ -1,4 +1,5 @@
+nginx:1.23.0
 #支持指定架构
---platform=linux/arm64
+#--platform=linux/arm64
+#quay.io/prometheus/prometheus:v2.29.1
 
-quay.io/prometheus/prometheus:v2.29.1
