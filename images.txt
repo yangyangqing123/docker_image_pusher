@@ -1,3 +1,1 @@
-#nginx:1.23.0
-#支持指定架构
---platform=linux/arm64 prometheus:v2.29.1
+--platform=linux/arm64 kube-state-metrics:v2.1.1
