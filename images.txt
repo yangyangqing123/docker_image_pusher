@@ -4,7 +4,7 @@
 #--platform=linux/arm64 prom/pushgateway:latest
 #--platform=linux/arm64 flink:1.16.3-scala_2.12-java8
 #--platform=linux/arm64 bitnami/configmap-reload:0.8.0-debian-11-r71
---platform=linux/arm64/kafka-exporter:latest
+--platform=linux/arm64  kafka-exporter:latest
 #error 
 #--platform=linux/arm64 jimidyson/configmap-reload:v0.5.0
 #--platform=linux/arm64 bitnami/kafka-exporter:1.6.0
