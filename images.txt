@@ -1,1 +1,1 @@
---platform=linux/arm64 yandex/clickhouse:latest
+--platform=linux/arm64 yandex/clickhouse-server:latest
