@@ -1,5 +1,5 @@
 #--platform=linux/arm64 yandex/clickhouse-server:22.1.7.3
 #--platform=linux/arm64 busybox:latest
 #--platform=linux/arm64 grafana/grafana-oss:8.1.1
---platform=linux/arm64 jimidyson/configmap-reload:v0.5.0
+#--platform=linux/arm64 jimidyson/configmap-reload:v0.5.0
 --platform=linux/arm64 bitnami/kafka-exporter:1.6.0
