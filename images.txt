@@ -1,1 +1,1 @@
---platform=linux/arm64 kafka:2.4.1
+--platform=linux/arm64 bitnami/kafka:2.4.1
