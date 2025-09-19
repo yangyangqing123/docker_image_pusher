@@ -1,1 +1,1 @@
---platform=linux/arm64 zookeeper:3.7.1
+--platform=linux/arm64 kafka:2.4.1
