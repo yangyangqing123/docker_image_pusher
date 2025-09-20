@@ -6,11 +6,13 @@
 #--platform=linux/arm64 bitnami/configmap-reload:0.8.0-debian-11-r71
 #--platform=linux/arm64 jimmidyson/configmap-reload:v0.5.0
 #
---platform=linux/arm64 registry.k8s.io/kube-apiserver:v1.24.4
---platform=linux/arm64 registry.k8s.io/kube-controller-manager:v1.24.4
---platform=linux/arm64 registry.k8s.io/kube-scheduler:v1.24.4
---platform=linux/arm64 registry.k8s.io/kube-proxy:v1.24.4
-
+#--platform=linux/arm64 registry.k8s.io/kube-apiserver:v1.24.4
+#--platform=linux/arm64 registry.k8s.io/kube-controller-manager:v1.24.4
+#--platform=linux/arm64 registry.k8s.io/kube-scheduler:v1.24.4
+#--platform=linux/arm64 registry.k8s.io/kube-proxy:v1.24.4
+--platform=linux/arm64 registry.k8s.io/pause-arm64:3.9
+--platform=linux/arm64 registry.k8s.io/etcd-arm64:3.5.9-0
+--platform=linux/arm64 registry.k8s.io/coredns-arm64:v1.10.1
 #error 
 #--platform=linux/arm64 jimidyson/configmap-reload:v0.5.0
 #--platform=linux/arm64 bitnami/kafka-exporter:1.6.0
