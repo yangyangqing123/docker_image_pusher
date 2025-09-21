@@ -12,7 +12,7 @@
 #--platform=linux/arm64 registry.k8s.io/kube-proxy:v1.24.4
 #--platform=linux/arm64 registry.k8s.io/pause:3.9
 #--platform=linux/arm64 registry.k8s.io/etcd:3.5.9-0
---platform=linux/arm64 nfs-subdir-external-provisioner:v4.0.2
+--platform=linux/arm64 registry.cn-hangzhou.aliyuncs.com/kube-public/nfs-subdir-external-provisioner:v4.0.2
 #error
 #--platform=linux/arm64 registry.k8s.io/coredns:v1.10.1
 #error 
