@@ -15,7 +15,8 @@
 #--platform=linux/arm64 gcr.io/k8s-staging-sig-storage/nfs-subdir-external-provisioner:v4.0.2
 #--platform=linux/arm64 registry.k8s.io/coredns/coredns:v1.10.1
 #--platform=linux/arm64 registry.k8s.io/coredns/coredns:v1.8.6
---platform=linux/arm64 registry.k8s.io/pause:3.7
+#--platform=linux/arm64 registry.k8s.io/pause:3.7
+--platform=linux/arm64 registry.k8s.io/etcd:3.5.3-0
 #error
 
 #error 
