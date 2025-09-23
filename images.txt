@@ -16,7 +16,11 @@
 #--platform=linux/arm64 registry.k8s.io/coredns/coredns:v1.10.1
 #--platform=linux/arm64 registry.k8s.io/coredns/coredns:v1.8.6
 #--platform=linux/arm64 registry.k8s.io/pause:3.7
---platform=linux/arm64 registry.k8s.io/etcd:3.5.3-0
+#--platform=linux/arm64 registry.k8s.io/etcd:3.5.3-0
+--platform=linux/arm64 docker.io/calico/node:v3.26.0
+--platform=linux/arm64 docker.io/calico/cni:v3.26.0
+--platform=linux/arm64 docker.io/calico/kube-controllers:v3.26.0
+--platform=linux/arm64 docker.io/calico/pod2daemon-flexvol:v3.26.0
 #error
 
 #error 
