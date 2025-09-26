@@ -21,8 +21,8 @@
 #--platform=linux/arm64 docker.io/calico/cni:v3.26.0
 #--platform=linux/arm64 docker.io/calico/kube-controllers:v3.26.0
 #--platform=linux/arm64 docker.io/calico/pod2daemon-flexvol:v3.26.0
---platform=linux/arm64 ghcr.io/flannel-io/flannel-cni-plugin:v1.7.1-flannel1
-
+#--platform=linux/arm64 ghcr.io/flannel-io/flannel-cni-plugin:v1.7.1-flannel1
+--platform=linux/arm64 ghcr.io/flannel-io/flannel:v0.27.3
 #error
 
 #error 
