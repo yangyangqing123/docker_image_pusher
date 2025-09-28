@@ -29,7 +29,17 @@
 #--platform=linux/arm64 quay.io/brancz/kube-rbac-proxy:v0.12.0
 #--platform=linux/arm64 registry.k8s.io/prometheus-adapter/prometheus-adapter:v0.12.0
 #--platform=linux/arm64 registry.k8s.io/prometheus-adapter/prometheus-adapter:v0.10.0
---platform=linux/arm64 registry.k8s.io/prometheus-adapter/prometheus-adapter:v0.11.0
+#--platform=linux/arm64 registry.k8s.io/prometheus-adapter/prometheus-adapter:v0.11.0
+--platform=linux/arm64 registry.k8s.io/prometheus-adapter/prometheus-adapter:v0.10.1
+--platform=linux/arm64 prom/node-exporter:v1.7.0
+--platform=linux/arm64 prom/node-exporter:v1.6.1
+--platform=linux/arm64 prom/node-exporter:v1.4.0
+--platform=linux/arm64 prom/node-exporter:v1.5.0
+--platform=linux/arm64 prom/node-exporter:v1.3.0
+--platform=linux/arm64 clickhouse/clickhouse-server:23.3-lts
+--platform=linux/arm64 clickhouse/clickhouse-server:23.8
+--platform=linux/arm64 clickhouse/clickhouse-server:22.8
+--platform=linux/arm64 prom/node-exporter:v1.2.1
 #error
 
 #error 
