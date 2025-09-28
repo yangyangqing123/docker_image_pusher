@@ -26,7 +26,7 @@
 #--platform=linux/arm64 busybox:1.27
 #--platform=linux/arm64 bitnami/kafka:3.6.1
 #--platform=linux/arm64 registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.8.0
---platform=linux/arm64 quay.io/brancz/kube-rbac-proxy:v0.11.0
+--platform=linux/arm64 registry.k8s.io/kube-rbac-proxy/kube-rbac-proxy:v0.14.1
 #error
 
 #error 
