@@ -36,12 +36,11 @@
 #--platform=linux/arm64 prom/node-exporter:v1.4.0
 #--platform=linux/arm64 prom/node-exporter:v1.5.0
 #--platform=linux/arm64 prom/node-exporter:v1.3.0
---platform=linux/arm64 clickhouse-server:23.3-lts
 --platform=linux/arm64 clickhouse-server:23.8
 --platform=linux/arm64 clickhouse-server:22.8
 --platform=linux/arm64 prom/node-exporter:v1.2.1
 #error
-
+#--platform=linux/arm64 clickhouse-server:23.3-lts
 #error 
 #--platform=linux/arm64 jimidyson/configmap-reload:v0.5.0
 #--platform=linux/arm64 bitnami/kafka-exporter:1.6.0
