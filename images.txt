@@ -36,9 +36,10 @@
 #--platform=linux/arm64 prom/node-exporter:v1.4.0
 #--platform=linux/arm64 prom/node-exporter:v1.5.0
 #--platform=linux/arm64 prom/node-exporter:v1.3.0
---platform=linux/arm64 clickhouse-server:23.8
---platform=linux/arm64 clickhouse-server:22.8
+--platform=linux/arm64 yandex/clickhouse-server:22.8.9.24
 --platform=linux/arm64 prom/node-exporter:v1.2.1
+--platform=linux/arm64 clickhouse/clickhouse-server:22.8.9.24
+
 #error
 #--platform=linux/arm64 clickhouse-server:23.3-lts
 #error 
