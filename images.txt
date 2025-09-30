@@ -43,7 +43,7 @@
 #--platform=linux/arm64 apache/apisix:2.15.3-debian
 #--platform=linux/arm64 busybox:1.28
 #--platform=linux/arm64 apache/apisix-ingress-controller:1.6.0
---platform=linux/arm64 apache/apisix-dashboard:2.15.2
+--platform=linux/arm64 apache/apisix-dashboard:3.0.1
 #--platform=linux/arm64 busybox:1.37.0
 #error
 #--platform=linux/arm64 clickhouse-server:23.3-lts
