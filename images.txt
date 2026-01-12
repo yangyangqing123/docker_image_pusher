@@ -54,4 +54,4 @@
 #--platform=linux/arm64 bitnami/kubectl:1.19.11-debian-10-r14
 #--platform=linux/arm64  bitnami/kafka-exporter:latest
 #--platform=linux/arm64 daneshk/kafka-exporter:latest
-bitnami/kafka:3.9.1
+bitnami/kafka:4.0.0
