@@ -54,4 +54,5 @@
 #--platform=linux/arm64 bitnami/kubectl:1.19.11-debian-10-r14
 #--platform=linux/arm64  bitnami/kafka-exporter:latest
 #--platform=linux/arm64 daneshk/kafka-exporter:latest
-registry.k8s.io/bitnami/kafka:latest
+#registry.k8s.io/bitnami/kafka:latest
+swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/bitnami/kafka:latest
