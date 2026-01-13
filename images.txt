@@ -54,4 +54,5 @@
 #--platform=linux/arm64 bitnami/kubectl:1.19.11-debian-10-r14
 #--platform=linux/arm64  bitnami/kafka-exporter:latest
 #--platform=linux/arm64 daneshk/kafka-exporter:latest
-registry.k8s.io/kafka:4.0.0
+#registry.k8s.io/kafka:4.0.0
+--platform=linux/arm64 apache/apisix-dashboard:3.0.1-alpine
