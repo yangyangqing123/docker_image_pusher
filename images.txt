@@ -66,4 +66,5 @@
 #swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/bitnami/kafka:3.8.1
 #swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/bitnami/kafka:3.9.0
 #swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/bitnami/kafka:3.9.1
-ghcr.io/kafbat/kafka-ui:v1.4.2
+#ghcr.io/kafbat/kafka-ui:v1.4.2
+ghcr.io/kafbat/kafka-ui:latest
