@@ -68,4 +68,5 @@
 #swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/bitnami/kafka:3.9.1
 #ghcr.io/kafbat/kafka-ui:v1.4.2
 #ghcr.io/kafbat/kafka-ui:latest
-docker.io/bitnami/jmx-exporter:1.1.0-debian-12-r7
+#docker.io/bitnami/jmx-exporter:1.1.0-debian-12-r7
+ghcr.io/kafbat/kafka-ui:v1.5.1
