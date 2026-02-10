@@ -69,4 +69,5 @@
 #ghcr.io/kafbat/kafka-ui:v1.4.2
 #ghcr.io/kafbat/kafka-ui:latest
 #docker.io/bitnami/jmx-exporter:1.1.0-debian-12-r7
-ghcr.io/kafbat/kafka-ui:v1.5.1
+#ghcr.io/kafbat/kafka-ui:v1.5.1
+docker.io/labring/kube-explorer:v0.4.0
