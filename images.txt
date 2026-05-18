@@ -71,4 +71,4 @@
 #docker.io/bitnami/jmx-exporter:1.1.0-debian-12-r7
 #ghcr.io/kafbat/kafka-ui:v1.5.1
 #cnrancher/kube-explorer:v0.4.0
-registry.cn-shanghai.aliyuncs.com/libring/sealos-webui:latest
+registry.cn-shanghai.aliyuncs.com/labring/sealos-cloud:v5.1.0
