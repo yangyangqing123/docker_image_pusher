@@ -72,5 +72,5 @@
 #ghcr.io/kafbat/kafka-ui:v1.5.1
 #cnrancher/kube-explorer:v0.4.0
 #docker.io/labring/sealos-cloud:latest
-docker.io/labring/sealos-webui:latest
+#docker.io/labring/sealos-webui:latest
 quay.io/keycloak/keycloak:26.6.2
