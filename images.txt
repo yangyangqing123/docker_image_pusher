@@ -75,4 +75,4 @@
 #docker.io/labring/sealos-webui:latest
 #quay.io/keycloak/keycloak:26.6.2
 #postgres:16.4
-bitnami/mysql:8.0.40
+daocloud.io/library/mysql:8.0.40
