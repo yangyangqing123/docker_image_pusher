@@ -75,4 +75,5 @@
 #docker.io/labring/sealos-webui:latest
 #quay.io/keycloak/keycloak:26.6.2
 #postgres:16.4
-mysql:8.0.40
+#mysql:8.0.40
+quay.io/cert-manager/cert-manager-controller:v1.11.0
