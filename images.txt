@@ -3,19 +3,20 @@
 # 注释以 # 开头，空行忽略
 # 目标镜像 = ACR_REGISTRY/ACR_NAMESPACE/<同名镜像>
 # 如需自定义目标名，用空格分隔：nginx:1.25-alpine my-nginx:v1
+# 注意：sync.sh 使用 skopeo --all，自动同步所有架构（amd64+arm64），无需指定 --platform
 
 # --- 首次测试镜像（小体积，快速验证链路） ---
 #alpine:3.18
 
-# --- Spring Boot 基础镜像（测试通过后取消注释） ---
-# eclipse-temurin:17-jdk
-# eclipse-temurin:17-jre
-# maven:3.9-eclipse-temurin-17
+# --- Spring Boot 基础镜像 ---
+eclipse-temurin:17-jdk
+eclipse-temurin:17-jre
+maven:3.9-eclipse-temurin-17
 
 # --- 基础设施镜像 ---
-# nginx:1.25-alpine
-# redis:7-alpine
-# mysql:8.0
+nginx:1.25-alpine
+redis:7-alpine
+mysql:8.0
 
 #test
 
@@ -70,7 +71,7 @@
 #--platform=linux/arm64 busybox:1.37.0
 #error
 #--platform=linux/arm64 clickhouse-server:23.3-lts
-#error 
+#error
 #--platform=linux/arm64 jimidyson/configmap-reload:v0.5.0
 #--platform=linux/arm64 bitnami/kafka-exporter:1.6.0
 #--platform=linux/arm64 bitnami/kubectl:1.19.11-debian-10-r14
