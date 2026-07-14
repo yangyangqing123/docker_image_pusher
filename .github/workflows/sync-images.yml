@@ -1,0 +1,38 @@
+name: Sync Images to ACR
+
+on:
+  push:
+    branches: [main]
+    paths: ['images.txt']
+  workflow_dispatch:
+    inputs:
+      image:
+        description: '单个镜像地址（可选，留空则同步全部）'
+        required: false
+        default: ''
+
+env:
+  ACR_REGISTRY: ${{ secrets.ACR_REGISTRY }}
+  ACR_NAMESPACE: ${{ secrets.ACR_NAMESPACE }}
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install skopeo
+        run: sudo apt-get update && sudo apt-get install -y skopeo
+
+      - name: Login to ACR
+        run: |
+          skopeo login \
+            "${{ secrets.ACR_REGISTRY }}" \
+            -u "${{ secrets.ACR_USERNAME }}" \
+            -p "${{ secrets.ACR_PASSWORD }}"
+
+      - name: Sync images
+        run: bash sync.sh
+        env:
+          INPUT_IMAGE: ${{ github.event.inputs.image }}
